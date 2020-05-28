@@ -1,0 +1,247 @@
+body {
+    background-color: whitesmoke;
+    margin: 10px;
+}
+
+.d1 {
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.d2 {
+    width: 250px;
+    height: 150px;
+    background-color: lightgray;
+    margin-top: -190px;
+    margin-left: -1090px
+}
+
+.d3 {
+    width: 250px;
+    height: 150px;
+    background-color: lightgray;
+    margin-top: -155px;
+    margin-left: 1020px;
+}
+
+.d4 {
+    width: 100%;
+    height: 25px;
+    border: 2px solid black;
+    border-left: none;
+    border-right: none;
+    margin-top: 50px;
+}
+
+.subdiv1 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-top: -1px;
+}
+
+.subdiv2 {
+    width: 50%;
+    height: 100%;
+    float: right;
+    margin-top: -1px;
+}
+
+.ti {
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: -150px;
+    line-height: 3px;
+}
+
+.mdiv1 {
+    width: 70%;
+    height: 100%;
+    float: left;
+    margin-top: -1px;
+}
+
+.mdiv2 {
+    width: 30%;
+    height: 100%;
+    float: right;
+    margin-top: -1px;
+}
+
+.content {
+    font-size: 12px;
+    text-align: start;
+}
+
+.page {
+    text-align: end;
+    margin-left: 85%;
+}
+
+.top {
+    width: 100%;
+    float: inline-start;
+    height: 50%;
+}
+
+.bottom {
+    width: 100%;
+    float: inline-end;
+    height: 50%;
+}
+
+.topleft {
+    height: 100%;
+    width: 50%;
+    float: left;
+    margin-top: 40px;
+}
+
+.topright {
+    height: 100%;
+    width: 50%;
+    float: right;
+    margin-top: 40px;
+}
+
+.bottomleft {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.bottomright {
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+.bleft {
+    width: 18%;
+    height: 100%;
+    ;
+    float: left;
+    margin-top: -18px;
+}
+
+.bright {
+    width: 82%;
+    height: 100%;
+    float: right;
+    margin-top: -18px;
+}
+
+.blef {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.brigh {
+    width: 70%;
+    height: 100%;
+    float: right;
+}
+
+.p1 {
+    margin-top: -4px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: start;
+}
+
+.p2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: start;
+}
+
+.p3 {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: start;
+    margin-top: 1PX;
+}
+
+.p4 {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: start;
+}
+
+.p5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: start;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+.p6 {
+    margin-top: -4px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: start;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.i1 {
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+    float: inline-start;
+    margin-left: -3px;
+}
+
+.i2 {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    float: inline-start;
+    margin-left: -3px;
+}
+
+.i3 {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    float: inline-start;
+    margin-left: -3px;
+}
+
+.i4 {
+    width: 100%;
+    height: 200px;
+    margin-top: -10px;
+}
+
+.box {
+    width: 390px;
+    height: 620px;
+    border: 1px solid black;
+    margin-top: 160px;
+}
+
+.db {
+    width: 95%;
+    height: 95%;
+    margin-top: 12px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.h {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: start;
+}
