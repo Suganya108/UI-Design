@@ -1,0 +1,57 @@
+.d {
+    width: 500px;
+    height: 1880px;
+    background: #21201d;
+    padding: 40px;
+    position: relative;
+}
+
+.d1 {
+    margin-top: 90px;
+    width: 400px;
+    height: 250px;
+    background: #0976aa;
+    position: relative;
+}
+
+.dl {
+    width: 50%;
+    float: left;
+    height: 100%;
+    position: relative;
+}
+
+.dr {
+    width: 50%;
+    float: left;
+    height: 100%;
+    position: relative;
+}
+
+.d2 {
+    margin-top: 40px;
+    width: 400px;
+    height: 200px;
+    background: #e20c13;
+    position: relative;
+}
+
+.d3 {
+    margin-top: 40px;
+    width: 400px;
+    height: 230px;
+    background: #0976aa;
+    position: relative;
+}
+
+.w {
+    color: #fff;
+}
+
+.d4 {
+    margin-top: 40px;
+    width: 400px;
+    height: 150px;
+    background: #0976aa;
+    position: relative;
+}
