@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+tr{height:30px;}
+r{color:red}
+bl{color:blue}
+s{margin-left:90px}
+</style>
+</head>
+<body>
+<div style="width: 100%; height: 40px; background-color: rgb(165, 42, 42);">
+<h5 style="text-align: center; color: white;">Request For New PAN Card Or/Add Changes Or Correction in PAN Data</h5>
+<p style="text-align: center; color: white; padding-top:-50px;margin-top:-20px">Fields marked with 
+<r>*</r>(asterisk) are mandatory. To avoid mistake(s) please refer
+<u style="color:red"> guidelines</u> and <u style="color:red"> instructions</u></p>
+</div>
+
+<table border="1" style="width: 100%; background-color: lightgoldenrodyellow;border-collapse:collapse;">
+<tr>
+<td width="30px"></td>
+<td ><r>*</r><b> Whether citizen of India</b><s></s>Yes <input type="radio"><s></s>No <input type="radio"></td>
+</tr>
+<tr ><td width="30px"></td>
+<td ><r>*</r> <b>Permanent Account Number(PAN)</b><input type="text"></tr>
+<tr>
+<td width="30px"><input type="checkbox"></td>
+<td><r>*</r> <b>Name</b></td>
+</tr>
+<tr>
+<td width="30px"></td>
+<td><b>Title</b><s></s>Shri/Mr <input type="radio"><s></s>Smt./Mrs.<input type="radio"><s></s>Kumari/Ms<input type="radio"></td>
+</tr>
+
+<tr>
+<td width="30px"></td>
+<td><label for="1"><b>Last Name/Surname</b></label><label for="2" style="margin-left:290px"><b>First Name</b></label>
+<label style="margin-left:340px" for="3"><b>Middle Name</b></label><br>
+<input type="text" id="1" style='float: left;'><input id="2" type="text" style='float: left;margin-left:250px'>
+<input id="3" type="text" style='margin-left:250px;float: left;'></td>
+</tr>
+<tr>
+<td width="30px"></td>
+<td><r>*</r><b>Name as you would like it printed on the card </b><bl>(Prefix like Shri,Smt,Kumari,Late,Dr,CA,Ms,Mr,Mrs,M/s,Alias etc are not allowed)
+</bl>
+</td>
+</tr>
+<tr>
+<td width="30px"></td>
+<td><input type="text" style="width:350px"></td>
+</tr>
+<tr>
+<td width="30px"></td>
+<td><b>Details of Parents.</b><bl> (Prefix like Shri,Smt,Kumari,Late,Dr,CA,Ms,Mr,Mrs,M/s,Alias etc are not allowed)</bl></td>
+</tr>
+
+<tr>
+<td width="30px"></td>
+<td>
+    <table>
+    <tr>
+    <td ><b>Whether mother is single parent and you wish to apply PAN by furnishing the name of your<br>mother only</b></td>
+    <td ><s></s>Yes <input type="radio"><s></s>No <input type="radio"></td>
+    </tr></table>
+</td>
+</tr>
+<tr>
+<td width="30px"><input type="checkbox"></td>
+<td><r>*</r><b>Father's Name</b><bl>(Mandatory field. Even married women should give father's name only.)</bl></td>
+</tr>
+<tr>
+<td width="30px"></td>
+<td><label for="1"><b>Last Name/Surname</b></label><label for="2" style="margin-left:290px"><b>First Name</b></label>
+<label style="margin-left:340px" for="3"><b>Middle Name</b></label><br>
+<input type="text" id="1" style='float: left;'><input id="2" type="text" style='float: left;margin-left:250px'>
+<input id="3" type="text" style='margin-left:250px;float: left;'></td>
+</tr>
+
+<tr>
+<td width="30px"><input type="checkbox"></td>
+<td><bl>Mother's Name(This field is optional.)
+</bl></td>
+</tr>
+<tr>
+<td width="30px"></td>
+<td><label for="1"><b>Last Name/Surname</b></label><label for="2" style="margin-left:290px"><b>First Name</b></label>
+<label style="margin-left:340px" for="3"><b>Middle Name</b></label><br>
+<input type="text" id="1" style='float: left;'><input id="2" type="text" style='float: left;margin-left:250px'>
+<input id="3" type="text" style='margin-left:250px;float: left;'></td>
+</tr>
+<tr>
+<td width="30px"></td>
+<td>
+    <table>
+    <tr>
+    <td ><r>*</r><b>4.Select Parent name which is to be printed on the card</b><br>
+    <bl>  (In case no option is provided then PAN card will be issued with father's name)</bl></td>
+    <td ><s></s>Father Name <input type="radio"><s></s>Mother Name <input type="radio"></td>
+    </tr></table>
+</td>
+</tr>
+
+</table>
+</body>
+</html>
